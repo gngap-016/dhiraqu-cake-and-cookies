@@ -1,0 +1,24 @@
+.container {
+
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.categoryLink {
+  background-color: var(--secondaryBg);
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.menuList {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
