@@ -1,0 +1,39 @@
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.socials {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}
+
+.link {
+  color: black;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.instagram {
+  color: crimson;
+}
+
+.whatsapp {
+  color: teal;
+}

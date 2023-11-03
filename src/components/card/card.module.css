@@ -1,0 +1,40 @@
+.container {
+  padding: 12px;
+  box-shadow: 0 1px 2px #00000036;
+  border-radius: 16px;
+  transition: all .3s;
+}
+
+.container:hover {
+  box-shadow: 0 1px 5px #00000036;
+}
+
+.imgContainer {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  box-shadow: 0 .5px 2px #00000036;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.img {
+  object-fit: cover;
+  transition: all .5s;
+}
+
+.container:hover .img {
+  transform: scale(1.2);
+}
+
+.price {
+  font-size: 28px;
+  font-weight: 600;
+  color: crimson;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 400;
+}
