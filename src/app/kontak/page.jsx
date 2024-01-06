@@ -9,7 +9,8 @@ const ContactPage = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Hubungi Kami</h1>
-      <div className={styles.contacts}></div>
+      <div className={styles.contacts}>
+      </div>
     </div>
   )
 }

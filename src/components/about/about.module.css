@@ -9,7 +9,33 @@
   margin-bottom: 30px;
 }
 
+.tCenter {
+  text-align: center;
+}
+
+.dialogue {
+  font-style: italic;
+}
+
+.tagLine {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: red;
+}
+
 .descContainer {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 30px;
+  font-size: 18px;
+}
+
+.w50 {
+  width: calc(50% - 30px);
+}
+
+.w100 {
+  width: 100%;
 }

@@ -2,6 +2,13 @@
 
 }
 
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
 .categories {
   display: flex;
   flex-wrap: wrap;

@@ -7,11 +7,12 @@ export const metadata = {
   title: 'Menu | DhiraQu Cake & Cookies',
 }
 
-const MenuPage = () => {
+const MenuPage = ({ searchParams }) => {
+  const { categories } = searchParams;
+
   return (
     <div className={styles.container}>
-      <Hero />
-      <Menu />
+      <Menu cat={!categories ? "all" : categories} />
     </div>
   )
 }

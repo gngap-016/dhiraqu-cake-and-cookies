@@ -2,11 +2,25 @@ import React from 'react'
 import styles from './menuList.module.css'
 import Link from 'next/link'
 import Card from '../card/Card'
-import { menus } from '@/utils/menu'
 
-const MenuList = () => {
+const getData = async (cat) => {
+  const res = await fetch(`${process.env.HOME_URL}api/menu?categories=${cat}`, {
+    cache: 'no-store',
+  });
+
+  if(!res.ok) {
+    throw new Error("Failed");
+  }
+
+  return res.json();
+}
+
+const MenuList = async ({ cat, limit }) => {
+  const {category, menus} = await getData(cat);
+
   return (
     <div className={styles.container}>
+      <h2 className={styles.title}>{category === "all" ? "Semua" : category}</h2>
       <div className={styles.categories}>
         <Link href={'/menu?categories=all'} className={styles.categoryLink}>Semua</Link>
         <Link href={'/menu?categories=cake'} className={styles.categoryLink}>Cake</Link>
@@ -18,10 +32,12 @@ const MenuList = () => {
         <Link href={'/menu?categories=donat'} className={styles.categoryLink}>Donat</Link>
       </div>
       <div className={styles.menuList}>
-        {menus?.slice(0,6).map(menu => (
+        {
+        menus?.slice(0, limit).map(menu => (
           <Card key={menu.id} title={menu.title} price={menu.price} img={menu.img} />
-        ))}
-      </div>
+          ))
+        }
+        </div>
     </div>
   )
 }
