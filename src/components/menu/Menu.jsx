@@ -2,11 +2,11 @@ import React from 'react'
 import styles from './menu.module.css'
 import MenuList from '../menuList/MenuList'
 
-const Menu = () => {
+const Menu = ({ cat, limit }) => {
   return (
     <div id='menu' className={styles.container}>
       <h1 className={styles.title}>Menu</h1>
-      <MenuList />
+      <MenuList cat={cat} limit={limit} />
     </div>
   )
 }

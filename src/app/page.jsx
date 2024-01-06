@@ -6,14 +6,16 @@ import Menu from "@/components/menu/Menu";
 import Testimoni from "@/components/testimoni/Testimoni";
 import Footer from "@/components/footer/Footer";
 
-export default function Home() {
+export default function Home({ searchParams }) {
+  const { categories } = searchParams;
+
+  console.log(categories)
   return (
     <div className={styles.container}>
       <Hero />
       <About />
-      <Menu />
+      <Menu cat={"all"} limit={6} />
       <Testimoni />
-      <Footer />
     </div>
   )
 }

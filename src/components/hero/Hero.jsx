@@ -12,16 +12,16 @@ import 'swiper/css/navigation';
 const Hero = () => {
   return (
     <div className={styles.container}>
-        <div className={styles.descContainer}>
-          <div className={styles.imgContainer}>
-            <Image src={'/dhiraqu.jpg'} alt='DhiraQu' className={styles.img} fill />
-          </div>
-          <div className={styles.textContainer}>
-            <h1 className={styles.title}>DhiraQu</h1>
-            <p className={styles.subtitle}>Cake & Cookies</p>
-          </div>
+      <div className={styles.descContainer}>
+        <div className={styles.imgContainer}>
+          <Image src={'/dhiraqu.jpg'} alt='DhiraQu' className={styles.img} fill />
         </div>
-        <div className={styles.carouselContainer}>
+        <div className={styles.textContainer}>
+          <h1 className={styles.title}>DhiraQu</h1>
+          <p className={styles.subtitle}>Cake & Cookies</p>
+        </div>
+      </div>
+      <div className={styles.carouselContainer}>
         <Swiper
           loop
           autoplay={{
@@ -33,11 +33,11 @@ const Hero = () => {
         >
           {carousel?.map(item => (
             <SwiperSlide key={item.id} className={styles.swiperItem}>
-              <Image src={item.img} alt='' fill />
+              <Image src={item.img} alt='' className={styles.imgCarousel} fill />
             </SwiperSlide>
           ))}
         </Swiper>
-        </div>
+      </div>
     </div>
   )
 }
