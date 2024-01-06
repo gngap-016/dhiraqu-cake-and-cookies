@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
 import Hero from '@/components/hero/Hero'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'Kontak | DhiraQu Cake & Cookies',
@@ -10,7 +11,9 @@ export const metadata = {
 const ContactPage = () => {
   return (
     <div className={styles.container}>
-      <Hero />
+      <div className={styles.imgContainer}>
+        <Image src={'/dhiraqu_full.jpg'} alt='' className={styles.img} fill />
+      </div>
       <h1 className={styles.title}>Hubungi Kami</h1>
       <div className={styles.contacts}>
         <table className={styles.table}>

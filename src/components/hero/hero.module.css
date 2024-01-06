@@ -62,3 +62,24 @@
     height: 300px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .imgContainer {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .imgContainer {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 68px;
+    font-weight: 600;
+  }
+
+  .subtitle {
+    font-size: 32px;
+  }
+}

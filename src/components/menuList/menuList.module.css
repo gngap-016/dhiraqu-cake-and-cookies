@@ -29,3 +29,9 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+  .menuList {
+    gap: 20px;
+  }
+}

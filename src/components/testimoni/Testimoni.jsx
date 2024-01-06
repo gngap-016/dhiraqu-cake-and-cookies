@@ -20,7 +20,7 @@ const Testimoni = () => {
       >
         <SwiperSlide className={styles.testimony}>
           <div className={styles.imgContainer}>
-            <Image src={'/carousel/1.jpg'} alt='' className={styles.img} fill />
+            <Image src={'/dhiraqu.jpg'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.textContainer}>
             <h1 className={styles.username}>Andika W</h1>
@@ -29,7 +29,7 @@ const Testimoni = () => {
         </SwiperSlide>
         <SwiperSlide className={styles.testimony}>
           <div className={styles.imgContainer}>
-            <Image src={'/carousel/1.jpg'} alt='' className={styles.img} fill />
+            <Image src={'/dhiraqu.jpg'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.textContainer}>
             <h1 className={styles.username}>Bima R</h1>
@@ -38,7 +38,7 @@ const Testimoni = () => {
         </SwiperSlide>
         <SwiperSlide className={styles.testimony}>
           <div className={styles.imgContainer}>
-            <Image src={'/carousel/1.jpg'} alt='' className={styles.img} fill />
+            <Image src={'/dhiraqu.jpg'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.textContainer}>
             <h1 className={styles.username}>Gilang Ap</h1>
@@ -47,7 +47,7 @@ const Testimoni = () => {
         </SwiperSlide>
         <SwiperSlide className={styles.testimony}>
           <div className={styles.imgContainer}>
-            <Image src={'/carousel/1.jpg'} alt='' className={styles.img} fill />
+            <Image src={'/dhiraqu.jpg'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.textContainer}>
             <h1 className={styles.username}>M Dani</h1>
@@ -56,10 +56,10 @@ const Testimoni = () => {
         </SwiperSlide>
         <SwiperSlide className={styles.testimony}>
           <div className={styles.imgContainer}>
-            <Image src={'/carousel/1.jpg'} alt='' className={styles.img} fill />
+            <Image src={'/dhiraqu.jpg'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.textContainer}>
-            <h1 className={styles.username}>M Luqman</h1>
+            <h1 className={styles.username}>E Luqman</h1>
             <p className={styles.userTestimony}>{`"Produk yang ditawarkan benar-benar sesuai dengan harganya"`}</p>
           </div>
         </SwiperSlide>

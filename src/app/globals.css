@@ -46,3 +46,21 @@ a {
   margin-top: 100px;
   padding: 0 120px;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    padding: 0 20px;
+  }
+}
