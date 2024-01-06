@@ -24,12 +24,13 @@ const MenuList = async ({ cat, limit }) => {
       <div className={styles.categories}>
         <Link href={'/menu?categories=all'} className={styles.categoryLink}>Semua</Link>
         <Link href={'/menu?categories=cake'} className={styles.categoryLink}>Cake</Link>
-        <Link href={'/menu?categories=roti'} className={styles.categoryLink}>Roti</Link>
+        <Link href={'/menu?categories=macaroni'} className={styles.categoryLink}>Macaroni</Link>
         <Link href={'/menu?categories=bolen'} className={styles.categoryLink}>Bolen</Link>
         <Link href={'/menu?categories=risol-mayo'} className={styles.categoryLink}>Risol Mayo</Link>
         <Link href={'/menu?categories=brownies'} className={styles.categoryLink}>Brownies</Link>
+        <Link href={'/menu?categories=nastar'} className={styles.categoryLink}>Nastar</Link>
+        <Link href={'/menu?categories=kacang'} className={styles.categoryLink}>Kacang</Link>
         <Link href={'/menu?categories=dimsum'} className={styles.categoryLink}>Dimsum</Link>
-        <Link href={'/menu?categories=donat'} className={styles.categoryLink}>Donat</Link>
       </div>
       <div className={styles.menuList}>
         {

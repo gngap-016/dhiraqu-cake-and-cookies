@@ -23,8 +23,8 @@ const Testimoni = () => {
             <Image src={'/carousel/1.jpg'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.textContainer}>
-            <h1 className={styles.username}>Gilang Aji Panutan</h1>
-            <p className={styles.userTestimony}>{`"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste ipsum, officiis laudantium odit tenetur enim accusamus rerum inventore. Ea animi nisi nam dicta."`}</p>
+            <h1 className={styles.username}>Andika W</h1>
+            <p className={styles.userTestimony}>{`"Saya sangat puas dengan produk yang ditawarkan oleh DhiraQu!"`}</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.testimony}>
@@ -32,8 +32,8 @@ const Testimoni = () => {
             <Image src={'/carousel/1.jpg'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.textContainer}>
-            <h1 className={styles.username}>Gilang Aji Panutan</h1>
-            <p className={styles.userTestimony}>{`"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste ipsum, officiis laudantium odit tenetur enim accusamus rerum inventore. Ea animi nisi nam dicta."`}</p>
+            <h1 className={styles.username}>Bima R</h1>
+            <p className={styles.userTestimony}>{`"Banyak varian produk dan semuanya sangat memuaskan!"`}</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.testimony}>
@@ -41,8 +41,8 @@ const Testimoni = () => {
             <Image src={'/carousel/1.jpg'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.textContainer}>
-            <h1 className={styles.username}>Gilang Aji Panutan</h1>
-            <p className={styles.userTestimony}>{`"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste ipsum, officiis laudantium odit tenetur enim accusamus rerum inventore. Ea animi nisi nam dicta."`}</p>
+            <h1 className={styles.username}>Gilang Ap</h1>
+            <p className={styles.userTestimony}>{`"Produk yang ditawarkan sangat beragam sehingga pelanggan tidak merasa bosan"`}</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.testimony}>
@@ -50,8 +50,8 @@ const Testimoni = () => {
             <Image src={'/carousel/1.jpg'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.textContainer}>
-            <h1 className={styles.username}>Gilang Aji Panutan</h1>
-            <p className={styles.userTestimony}>{`"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste ipsum, officiis laudantium odit tenetur enim accusamus rerum inventore. Ea animi nisi nam dicta."`}</p>
+            <h1 className={styles.username}>M Dani</h1>
+            <p className={styles.userTestimony}>{`"Saya tidak pernah bosan untuk membeli produk disini"`}</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.testimony}>
@@ -59,8 +59,8 @@ const Testimoni = () => {
             <Image src={'/carousel/1.jpg'} alt='' className={styles.img} fill />
           </div>
           <div className={styles.textContainer}>
-            <h1 className={styles.username}>Gilang Aji Panutan</h1>
-            <p className={styles.userTestimony}>{`"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste ipsum, officiis laudantium odit tenetur enim accusamus rerum inventore. Ea animi nisi nam dicta."`}</p>
+            <h1 className={styles.username}>M Luqman</h1>
+            <p className={styles.userTestimony}>{`"Produk yang ditawarkan benar-benar sesuai dengan harganya"`}</p>
           </div>
         </SwiperSlide>
       </Swiper>

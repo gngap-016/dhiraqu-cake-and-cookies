@@ -11,10 +11,10 @@ const Footer = () => {
         &copy; Copyright 2023 DhiraQu Cake & Cookies by Ganuta
       </p>
       <div className={styles.socials}>
-        <Link href={'/'} className={styles.link}>
+        <Link href={'https://www.instagram.com/dhiraqu_cookies/'} className={styles.link} target='_blank' rel='noreferrer'>
           <FontAwesomeIcon icon={faInstagram} className={`${styles.icon} ${styles.instagram}`} />
         </Link>
-        <Link href={'/'} className={styles.link}>
+        <Link href={'https://wa.me/6281272091978'} className={styles.link}  target='_blank' rel='noreferrer'>
           <FontAwesomeIcon icon={faWhatsapp} className={`${styles.icon} ${styles.whatsapp}`} />
         </Link>
       </div>
