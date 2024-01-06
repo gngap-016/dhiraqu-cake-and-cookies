@@ -13,13 +13,13 @@ const ContactPage = () => {
       <Hero />
       <h1 className={styles.title}>Hubungi Kami</h1>
       <div className={styles.contacts}>
-        <table>
-          <tr>
-            <th>Instagram</th>
-            <th>:</th>
-            <td><Link href={'https://www.instagram.com/dhiraqu_cookies/'}>DhiraQu_Cookies</Link></td>
+        <table className={styles.table}>
+          <tr className={styles.list}>
+            <th style={{width: '40%', paddingBottom: 12}}>Instagram</th>
+            <th style={{width: 20, paddingBottom: 12}}>:</th>
+            <td style={{paddingBottom: 12}}><Link href={'https://www.instagram.com/dhiraqu_cookies/'}>@DhiraQu_Cookies</Link></td>
           </tr>
-          <tr>
+          <tr className={styles.list}>
             <th>WhatsApp</th>
             <th>:</th>
             <td><Link href={'https://wa.me/6281272091978'}>+62 812 7209 1978</Link></td>
