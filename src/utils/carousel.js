@@ -12,10 +12,6 @@ export const carousel = [
     img: "/carousel/1.jpg"
   },
   {
-    id: 4,
-    img: "/carousel/2.jpg"
-  },
-  {
     id: 5,
     img: "/carousel/3.jpg"
   },
