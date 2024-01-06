@@ -21,7 +21,7 @@
   margin-top: 20px;
   font-size: 24px;
   font-weight: 600;
-  color: red;
+  color: crimson;
 }
 
 .descContainer {
@@ -30,6 +30,7 @@
   justify-content: space-between;
   gap: 30px;
   font-size: 18px;
+  line-height: 1.6;
 }
 
 .w50 {
@@ -38,4 +39,14 @@
 
 .w100 {
   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .w50 {
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+  }
 }
